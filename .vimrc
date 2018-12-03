@@ -177,8 +177,8 @@ map <leader>bd :Bclose<cr>:tabclose<cr>gT
 
 " Close all the buffers
 map <leader>ba :bufdo bd<cr>
-map <leader>k :bnext<cr>
-map <leader>j :bprevious<cr>
+map <C-k> :bnext<cr>
+map <C-j> :bprevious<cr>
 
 " Useful mappings for managing tabs
 map <leader>tn :tabnew<cr>
